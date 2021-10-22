@@ -31,13 +31,3 @@ public interface Zmogus {
 
     void setPlaukuSpalva(String plaukuSpalva);
 }
-/*
-lytis;
-asmens kodas[nekeičiama];
-vardas;
-pavardė;
-amžius;
-svoris;
-ūgis;
-plaukų spalva.
- */

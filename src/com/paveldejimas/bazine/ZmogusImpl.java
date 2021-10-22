@@ -24,7 +24,7 @@ public class ZmogusImpl implements Zmogus {
 
     @Override
     public boolean isVyras() {
-        return isVyras();
+        return this.lytis;
     }
 
     @Override
@@ -94,10 +94,18 @@ public class ZmogusImpl implements Zmogus {
     public void setPlaukuSpalva(String plaukuSpalva) {
         this.plaukuSpalva = plaukuSpalva;
     }
-    @Override
-    public String toString(){
-        System.out.println(this.lytis+" "+this.ak+" "+this.vardas+" "+this.pavarde+" "+this.amzius+" ");
 
-        return null;
+    @Override
+    public String toString() {
+        return "ZmogusImpl{" +
+                "lytis=" + lytis +
+                ", ak='" + ak + '\'' +
+                ", vardas='" + vardas + '\'' +
+                ", pavarde='" + pavarde + '\'' +
+                ", amzius=" + amzius +
+                ", svoris=" + svoris +
+                ", ugis=" + ugis +
+                ", plaukuSpalva='" + plaukuSpalva + '\'' +
+                '}';
     }
 }

@@ -1,7 +1,7 @@
 package com.paveldejimas.isvestine;
 
 public interface Statybininkas {
-    int getStazas();
+    double getStazas();
     void setStazas(int stazas);
     String getIssilavinimas();
     void setIssilavinimas(String issilavinimas);
@@ -10,9 +10,3 @@ public interface Statybininkas {
     double getAtlyginimas();
     void setAtlyginimas(double atlyginimas);
 }
-/*
-stažas;
-- išsilavinimas;
-- specializacija;
-- atlyginimas.
- */
